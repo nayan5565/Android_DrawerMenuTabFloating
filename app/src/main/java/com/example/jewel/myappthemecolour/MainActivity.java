@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"floating",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"floating button toast",Toast.LENGTH_SHORT).show();
             }
         });
         setSupportActionBar(toolbar);
