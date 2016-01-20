@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nagivation_item_attachment"
+            android:checked="true"
+            android:title="attachment" />
+        <item
+            android:id="@+id/nagivation_item_image"
+
+            android:title="image" />
+        <item
+            android:id="@+id/nagivation_item_setting"
+            android:title="setting" />
+
+    </group>
+    <item android:title="nav_sub_menu">
+        <menu>
+            <item android:title="sub_menu1" />
+            <item android:title="sub_menu2" />
+        </menu>
+
+    </item>
+</menu>
